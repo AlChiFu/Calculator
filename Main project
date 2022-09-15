@@ -1,1 +1,23 @@
 
+r = 's'
+while r == 's':
+    print('*Menú*')
+    print('1*Mult*')
+    print('2*Suma*')
+    print('3*Rest*')
+    print('4*Div*')
+    o = int(input())
+    match o:
+        case 1:
+            print('mult')
+        case 2:
+            print('Suma')
+        case 3:
+            print('Rest')
+        case 4:
+            print('Div')
+        case _:
+            print('Invalido')
+    print ('Otra operacion (s , n)')
+    r = input()
+print ('saliendo')
